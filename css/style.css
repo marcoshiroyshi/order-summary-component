@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat:ital,wght@1,300&family=Nunito+Sans:opsz@6..12&family=Plus+Jakarta+Sans:wght@400;500;800&family=Poppins:ital,wght@1,200;1,400&family=Raleway:wght@300&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #D6E1FF;
+}
+
+/* CENTER THE DIV  */
+
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6e1ff;
+    
+}
+
+/* COMPONENT */
+
+.component {
+    width: 450px;
+    height: 700px;
+    border-radius: 10px;    
+    background-color: white;
+}
+
+.component-img {
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* CENTER THE TEXT IN THE COMPONENT */
+
+.component-center {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* COMPONENT TEXT */
+
+.component-text {
+    padding: 30px;
+}
+
+.component-text h2 {
+    font-weight: 800;
+    font-size: 28px;
+    color: #1F2E55;
+}
+
+.component-text p {
+    padding-top: 20px;
+    color: #717FA6;
+}
+
+/* COMPONENT PRICE */
+
+.price {    
+    background-color: #f7f9ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 10px;
+}
+
+.price-text {
+    margin: 0 10px;    
+    color: #717FA6;
+}
+
+.price-text h4 {
+    color: #1F2E55;
+    font-weight: 800;
+}
+
+.price-text p {
+    margin: 3px 0;
+}
+
+.price-link {
+    margin-left: 110px;
+    color: #382AE1;
+}
+
+/* BUTTONS */
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.payment {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    height: 5vh;
+    background-color: #382AE1;
+    font-weight: 700;    
+    margin-bottom: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+
+.link-cancel {
+    color: #717FA6;
+    text-decoration: none;
+    font-weight: bold;
+}
